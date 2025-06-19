@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Marsad</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!-- Favicon Icon -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+        <link rel='stylesheet' type='text/css' media='screen' href="assets/css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- SlickNav Css -->
+        <link href="assets/css/slicknav.min.css" rel="stylesheet">
+        <!-- Animated Css -->
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <!-- Header Start -->
+        <header class="main-header">
+            <div class="header-sticky">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <!-- Logo Start -->
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/logo.svg" alt="Logo">
+                        </a>
+                        <!-- Logo End -->
+                        <!-- Main Menu Start -->
+                        <div class="collapse navbar-collapse main-menu">
+                            <div class="nav-menu-wrapper">
+                                <ul class="navbar-nav mr-auto" id="menu">
+                                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a>
+                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Header Btn Start -->
+                        <div class="header-btn">
+                            <a href="contact.html" class="btn-default">get started </a>
+                        </div>
+                        <!-- Header Btn End -->
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Page Header Start -->
+    <div class="page-header parallaxie">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1>Contact us</h1>
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+    <!-- Start Contact
+    ============================================= -->
+    <div class="contact-area default-padding bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 contact-form-box">
+                    <div class="content">
+                        <div class="heading">
+                            <h2 class="title">Need Help?</h2>
+                            <p class="desc">Reach out to the world’s most reliable IT services.</p>
+                        </div>
+                        <form action="assets/mail/contact.php" method="POST" class="contact-form">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group comments">
+                                        <textarea class="form-control" id="comments" name="comments" placeholder="Please describe what you need."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-lg-12">
+                                    <button type="submit" name="submit" id="submit" class="btn-default btn-highlighted">
+                                    Get a free consultation
+                                    </button>
+                                    <div class="hero-btn">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Alert Message -->
+                            <div class="col-md-12 alert-notification">
+                                <div id="message" class="alert-msg"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 info">
+                     <div class="contact-tabs">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="tab_1" data-bs-toggle="tab" data-bs-target="#tabs_1" type="button" role="tab" aria-controls="tabs_1" aria-selected="true">US Address</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="tab_2" data-bs-toggle="tab" data-bs-target="#tabs_2" type="button" role="tab" aria-controls="tabs_2" aria-selected="false">Google Maps</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="tabs_1" role="tabpanel" aria-labelledby="tab_1">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="info">
+                                            <p>
+                                                <strong>Our Location</strong>
+                                                East 10th Street, New York, <br> NY 10003, United States
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fas fa-envelope-open"></i>
+                                        </div>
+                                        <div class="info">
+                                            <p>
+                                                <strong>Send Us Mail</strong>
+                                                info@yourdomain.com
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                        <div class="info">
+                                            <p>
+                                                <strong>Make a call</strong>
+                                                +456 456 4443
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="tabs_2" role="tabpanel" aria-labelledby="tab_2">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14767.262289338461!2d70.79414485000001!3d22.284975!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1424308883981"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Area -->
+    <!-- Start Footer
+    ============================================= -->
+    <footer class="bg_dark text-light">
+        <!-- Fixed Shape -->
+        <div class="fixed-shape">
+            <img src="assets/img/map.svg" alt="Shape">
+        </div>
+        <!-- Fixed Shape -->
+        <div class="container">
+            <div class="f-items default-padding">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="f-item about">
+                            <img src="assets/img/logo.svg" alt="Logo">
+                            <p>
+                                Happen active county. Winding for the morning am shyness evident to poor. Garrets
+                                because elderly new.
+                            </p>
+                            <form action="#">
+                                <input type="email" placeholder="Your Email" class="form-control" name="email">
+                                <button type="submit"> <i class="fa fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title">Company</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Meet Our Team</a>
+                                </li>
+                                <li>
+                                    <a href="#">News & Media</a>
+                                </li>
+                                <li>
+                                    <a href="#">Case Studies</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Investors</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title">Solutions</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">IT Management</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cyber Security</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cloud Computing</a>
+                                </li>
+                                <li>
+                                    <a href="#">IT Consulting</a>
+                                </li>
+                                <li>
+                                    <a href="#">Software Dev</a>
+                                </li>
+                                <li>
+                                    <a href="#">Backup & Recovery</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="f-item">
+                            <h4 class="widget-title">Contact Info</h4>
+                            <div class="address">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <strong>Address:</strong>
+                                        5919 Trussville Crossings Pkwy, Birmingham AL 35235
+                                    </li>
+                                    <li>
+                                        <strong>Email:</strong>
+                                        <a href="mailto:info@marsad.com" class="text-white">info@marsad.com</a>
+                                    </li>
+                                    <li>
+                                        <strong>Phone:</strong>
+                                        <a href="tel:123456987" class="text-white">0123456789</a><br>
+                                        <a href="tel:123456987" class="text-white">0123456789</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>Copyright © 2025. Designed by <a href="index.html">Marsad</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </footer>
+    <!-- End Footer -->
+
+        <!-- Jquery Library File -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <!-- Wow js file -->
+    <script src="assets/js/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
